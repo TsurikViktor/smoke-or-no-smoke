@@ -8,7 +8,7 @@ if ( age < 18 ) {
         alert('Маме расскажу !!!');
     }
 } 
-else if (age => 18) {
+else if (age >= 18) {
     if ( z === true ) {
         alert('Ну и зря !!!');
     } 
