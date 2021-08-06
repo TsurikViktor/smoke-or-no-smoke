@@ -1,5 +1,5 @@
 var age = +prompt('Введите ваш возраст');
-var z = confirm('Вы курите ?  Да(ОК)  НЕТ(Отмена)');
+var z = confirm(`Вы курите в свои ${age} ?  Да(ОК)  НЕТ(Отмена)`);
 if ( age < 18 ) {
     if ( z === false ) {
         alert('Так держать !!!');
@@ -8,7 +8,7 @@ if ( age < 18 ) {
         alert('Маме расскажу !!!');
     }
 } 
-else if (age >= 18) {
+else if ( age >= 18 ) {
     if ( z === true ) {
         alert('Ну и зря !!!');
     } 
